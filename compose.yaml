@@ -1,0 +1,11 @@
+# Run the tool with Docker Compose:
+#   docker compose run --rm diagnostic system
+#   docker compose run --rm diagnostic network localhost
+#   docker compose run --rm diagnostic disk
+#   docker compose run --rm diagnostic help
+services:
+  diagnostic:
+    build: .                  # build from the Dockerfile in this folder
+    image: diagnostic-tool    # name given to the built image
+    read_only: true           # the tool never writes to its own filesystem
+    command: ["help"]         # default when no command is passed

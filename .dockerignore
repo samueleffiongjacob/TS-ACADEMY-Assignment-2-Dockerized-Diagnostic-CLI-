@@ -1,0 +1,15 @@
+# Keep the build context small and free of local/private files.
+.git
+.gitignore
+.github
+logs/
+*.log
+*.tmp
+*.swp
+.DS_Store
+README.md
+grade.sh
+test.sh
+compose.yaml
+Dockerfile
+.dockerignore
