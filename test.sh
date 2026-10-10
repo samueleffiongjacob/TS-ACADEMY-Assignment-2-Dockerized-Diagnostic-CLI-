@@ -64,3 +64,5 @@ run_test "health-check script reports healthy" 0 "healthy"          docker run -
 echo
 echo "Passed: $PASSED   Failed: $FAILED"
 [[ $FAILED -eq 0 ]]
+
+echo "Finished - final exit code: $?"
