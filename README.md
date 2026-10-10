@@ -93,8 +93,3 @@ missing host, invalid host, extra arguments and the health check.
 - Network commands need outbound access only for external hostnames;
   `localhost` works offline.
 - No secrets or machine-specific values are stored in the repository.
-
-## Git workflow
-
-Developed on a feature branch (`feature/docker`) with small commits and merged
-into `main`.
