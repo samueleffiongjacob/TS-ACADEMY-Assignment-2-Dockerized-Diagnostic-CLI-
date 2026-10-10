@@ -1,4 +1,4 @@
-# Assignment 2 — Dockerized Diagnostic CLI
+# Assignment 2 Dockerized Diagnostic CLI
 
 A Bash diagnostic tool packaged as a small Docker image (Alpine + bash) that can
 be built and run locally with plain Docker or Docker Compose. No cloud services

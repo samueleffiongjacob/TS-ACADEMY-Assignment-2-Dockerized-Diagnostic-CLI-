@@ -108,3 +108,5 @@ echo "======================================"
 
 docker image rm "$IMAGE" >/dev/null 2>&1 || true
 [[ $FAIL -eq 0 ]]
+
+echo"finished - final exit code: $?"
